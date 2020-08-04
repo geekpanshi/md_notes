@@ -3,7 +3,6 @@
 > One place for learning Markdown from novice to proficient, this tutorial will continue to update.
 
 ---
-[TOC]
 
 ### Markdown 从入门到精通
 
@@ -488,16 +487,7 @@ $$
 ```
 
 ###### 12.2.4 效果-2
-$$
-\left[
-\begin{matrix}
- 1      & 2      & \cdots & 4      \\
- 7      & 6      & \cdots & 5      \\
- \vdots & \vdots & \ddots & \vdots \\
- 8      & 9      & \cdots & 0      \\
-\end{matrix}
-\right]
-$$
+![整行公式-1](./images/12.2.4.png "整行公式-1")
 
 
 ##### 12.3 公式参考：[MathJax](https://math.meta.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference "MathJax basic tutorial and quick reference")
