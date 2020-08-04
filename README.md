@@ -3,6 +3,7 @@
 > One place for learning Markdown from novice to proficient, this tutorial will continue to update.
 
 ---
+[TOC]
 
 ### Markdown 从入门到精通
 
@@ -444,7 +445,7 @@ _ _ _
 > 不支持，不做展示
 
 
-#### 12. 数学公式
+#### 12. 数学公式（Latex）
 
 ##### 12.1 行内公式
 > 语法说明：`$-公式`
@@ -460,8 +461,8 @@ _ _ _
 ##### 12.2 整行公式
 > 语法说明：`$$-公式`
 
-###### 12.2.1 代码
-```
+###### 12.2.1 代码-1
+```latex
 $$\sum_{i=1}^n a_i=0$$
 
 $$f(x_1,x_x,\ldots,x_n) = x_1^2 + x_2^2 + \cdots + x_n^2 $$
@@ -469,8 +470,35 @@ $$f(x_1,x_x,\ldots,x_n) = x_1^2 + x_2^2 + \cdots + x_n^2 $$
 $$\sum^{j-1}_{k=0}{\widehat{\gamma}_{kj} z_k}$$
 ```
 
-###### 12.2.2 效果
+###### 12.2.2 效果-1
 ![整行公式](./images/GquoCG4.png "整行公式")
+
+###### 12.2.3 代码-1
+```latex
+$$
+\left[
+\begin{matrix}
+ 1      & 2      & \cdots & 4      \\
+ 7      & 6      & \cdots & 5      \\
+ \vdots & \vdots & \ddots & \vdots \\
+ 8      & 9      & \cdots & 0      \\
+\end{matrix}
+\right]
+$$
+```
+
+###### 12.2.4 效果-2
+$$
+\left[
+\begin{matrix}
+ 1      & 2      & \cdots & 4      \\
+ 7      & 6      & \cdots & 5      \\
+ \vdots & \vdots & \ddots & \vdots \\
+ 8      & 9      & \cdots & 0      \\
+\end{matrix}
+\right]
+$$
+
 
 ##### 12.3 公式参考：[MathJax](https://math.meta.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference "MathJax basic tutorial and quick reference")
 
@@ -838,12 +866,30 @@ section 测试
 路漫漫其修远兮，吾将上下而求索。
 {% endnote %}
 
-#### 20. 更多功能（TO Be continue！！！）
+#### 20. 特殊符号处理
+Markdown 使用反斜杠 \ 插入语法中用到的特殊符号。在 Markdown 中，主要有以下几种特殊符号需要处理：
+```
+\ 反斜线
+` 反引号
+* 星号
+_ 底线
+{} 花括号
+[] 方括号
+() 括弧
+# 井字号
++ 加号
+- 减号
+. 英文句点
+! 惊叹号
+```
+
+#### 21. 更多功能（TO Be continue！！！）
 
 ---
 
 #### 版本更新记录
 * v.1.0 2017-06-19 初始化；
 * v.1.1 2018-08-05 增加 9 到 10 章节内容；
-* v.2.0 2018-10-19 增加 11 到 18 内容。
-* v.2.1 2019-08-12 增加 19 部分内容。
+* v.2.0 2018-10-19 增加 11 到 18 内容；
+* v.2.1 2019-08-12 增加 19 部分内容；
+* v.2.2 2020-08-04 增加 20 部分内容。
