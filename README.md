@@ -873,7 +873,63 @@ _ 底线
 ! 惊叹号
 ```
 
-#### 21. 更多功能（TO Be continue！！！）
+#### 23. 如何在 markdown 隐藏代码块
+> details ： 折叠语法
+> summary ： 折叠语法展示的摘要
+> pre ： 以原有格式显示元素内的文字是已经格式化的文本
+> code ： 指定代码块
+
+代码块-1
+```
+<details>
+  <summary>折叠代码块</summary>
+  <pre><code>
+     System.out.println("虽然可以折叠代码块");
+     System.out.println("但是代码无法高亮");
+  </code></pre>
+</details>
+```
+
+效果图-1
+<details>
+  <summary>折叠代码块</summary>
+  <pre><code>
+     System.out.println("虽然可以折叠代码块");
+     System.out.println("但是代码无法高亮");
+  </code></pre>
+</details>
+
+代码块-2
+```html
+<details>
+  <summary>折叠代码块</summary>
+  <pre><blockcode>
+     System.out.println("虽然可以折叠代码块");
+     System.out.println("但是代码无法高亮");
+  </blockcode></pre>
+</details>
+```
+效果图-2
+<details>
+  <summary>折叠代码块</summary>
+  <pre><blockcode>
+     System.out.println("虽然可以折叠代码块");
+     System.out.println("但是代码无法高亮");
+  </blockcode></pre>
+</details>
+
+
+#### 24. 注释/隐藏
+样式
+```html
+<!-- 代码不可见，隐藏内容 -->
+```
+
+效果图
+<!-- 代码不可见，隐藏内容 -->
+
+
+#### 更多功能（TO Be continue！！！）
 
 ---
 
@@ -883,3 +939,4 @@ _ 底线
 * v.2.0 2018-10-19 增加 11 到 18 内容；
 * v.2.1 2019-08-12 增加 19 部分内容；
 * v.2.2 2020-08-04 增加 20 部分内容。
+* v.2.3 2021-03-05 增加 23、24 部分内容
